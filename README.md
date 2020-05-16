@@ -9,13 +9,14 @@ This repository provides portable precompiled Crystal binaries. The only
 difference from the official packages is that pacakges here include static
 [libevent][libev] and [PCRE][pcre] libraries. Users can download a package from
 the [release page][rel], unpack it and run
-`crystal-verion_x64-linux/bin/crystal` to compile their
-programs without installing other libraries. More importantly, executables
+`crystal-verion_x64-linux/bin/crystal` to compile their programs without
+installing other libraries. **More importantly**, executables
 compiled with our binary distributions are not dynamically linked to the two
-libraries and are thus more portable.
+libraries and are thus more portable -- as developers, we wouldn't want our
+users to install other libraries to use our tools.
 
 At present, this repository does not provide libyaml and libgmp which are
-required to compile certain programs.
+required to compile certain crystal programs.
 
 [crystal]: https://crystal-lang.org/
 [libev]: https://libevent.org/
