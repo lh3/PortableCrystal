@@ -19,7 +19,7 @@ other libraries to use our tools.
 At present, this repository does not provide libyaml and libgmp which are
 required to compile certain crystal programs.
 
-Available verions: [0.34.0][v0.34.0] and [1.0][v1.0].
+Available versions: [0.34.0][v0.34.0] and [1.0][v1.0].
 
 [crystal]: https://crystal-lang.org/
 [libev]: https://libevent.org/
